@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>modulr test</title>
+    <style>
+        body,div,header,footer,h1,h2,h3,h4,span,input,section,article,nav { padding: 0;margin: 0; }
+        li {list-style: none;margin:.5rem;padding:.5rem}
+
+        header, .input-wrapper, .display-wrapper {
+            padding:2rem;
+        }
+
+        header {
+            height: 20px;
+            background-color: chocolate;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            color:#fff;
+        }
+        .input-wrapper input {
+            padding: 0.5rem 1rem;
+        }
+
+        ul > li:nth-child(odd) {
+        background-color: #d7c7c457;
+        }
+
+    </style>
+    <script src="./src/app.js"  type="module"></script>
+</head>
+<body>
+    <header></header>
+    <div class="container">
+        <div class="input-area"> </div>
+        <div class="display-area"> </div>
+    </div>
+</body>
+</html>
